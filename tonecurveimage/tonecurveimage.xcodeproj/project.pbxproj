@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E29BAF1B71C81800839916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E29BAE1B71C81800839916 /* main.m */; };
+		B6E29BB21B71C81800839916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E29BB11B71C81800839916 /* AppDelegate.m */; };
+		B6E29BB51B71C81800839916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E29BB41B71C81800839916 /* ViewController.m */; };
+		B6E29BB81B71C81800839916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BB61B71C81800839916 /* Main.storyboard */; };
+		B6E29BBA1B71C81800839916 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BB91B71C81800839916 /* Images.xcassets */; };
+		B6E29BBD1B71C81800839916 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BBB1B71C81800839916 /* LaunchScreen.xib */; };
+		B6E29BC91B71C81800839916 /* tonecurveimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E29BC81B71C81800839916 /* tonecurveimageTests.m */; };
+		B6E29BD61B71C99700839916 /* curves_1.acv in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BD31B71C99700839916 /* curves_1.acv */; };
+		B6E29BD71B71C99700839916 /* curves_2.acv in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BD41B71C99700839916 /* curves_2.acv */; };
+		B6E29BD81B71C99700839916 /* curves_3.acv in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BD51B71C99700839916 /* curves_3.acv */; };
+		B6E29BDA1B71CC5500839916 /* Lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E29BD91B71CC5500839916 /* Lenna.png */; };
+		F1F13012E5B6E3EB1E5079EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C97E20330E3EA965670DEC14 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6E29BC31B71C81800839916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E29BA11B71C81800839916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E29BA81B71C81800839916;
+			remoteInfo = tonecurveimage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741BF2438C96A7679E5600E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A1A7B560DD94736834834B1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E29BA91B71C81800839916 /* tonecurveimage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tonecurveimage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E29BAD1B71C81800839916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E29BAE1B71C81800839916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6E29BB01B71C81800839916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6E29BB11B71C81800839916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6E29BB31B71C81800839916 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6E29BB41B71C81800839916 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6E29BB71B71C81800839916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6E29BB91B71C81800839916 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6E29BBC1B71C81800839916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6E29BC21B71C81800839916 /* tonecurveimageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonecurveimageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E29BC71B71C81800839916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E29BC81B71C81800839916 /* tonecurveimageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tonecurveimageTests.m; sourceTree = "<group>"; };
+		B6E29BD31B71C99700839916 /* curves_1.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = curves_1.acv; sourceTree = "<group>"; };
+		B6E29BD41B71C99700839916 /* curves_2.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = curves_2.acv; sourceTree = "<group>"; };
+		B6E29BD51B71C99700839916 /* curves_3.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = curves_3.acv; sourceTree = "<group>"; };
+		B6E29BD91B71CC5500839916 /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lenna.png; path = tonecurveimage/Lenna.png; sourceTree = SOURCE_ROOT; };
+		C97E20330E3EA965670DEC14 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E29BA61B71C81800839916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F13012E5B6E3EB1E5079EC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E29BBF1B71C81800839916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB9AB8642CE325E1EEC6FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1A7B560DD94736834834B1A /* Pods.debug.xcconfig */,
+				741BF2438C96A7679E5600E6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6E29BA01B71C81800839916 = {
+			isa = PBXGroup;
+			children = (
+				B6E29BAB1B71C81800839916 /* tonecurveimage */,
+				B6E29BC51B71C81800839916 /* tonecurveimageTests */,
+				B6E29BAA1B71C81800839916 /* Products */,
+				08FB9AB8642CE325E1EEC6FE /* Pods */,
+				E2F22FA567BC74DB1601DED8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E29BAA1B71C81800839916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E29BA91B71C81800839916 /* tonecurveimage.app */,
+				B6E29BC21B71C81800839916 /* tonecurveimageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E29BAB1B71C81800839916 /* tonecurveimage */ = {
+			isa = PBXGroup;
+			children = (
+				B6E29BB01B71C81800839916 /* AppDelegate.h */,
+				B6E29BB11B71C81800839916 /* AppDelegate.m */,
+				B6E29BB31B71C81800839916 /* ViewController.h */,
+				B6E29BB41B71C81800839916 /* ViewController.m */,
+				B6E29BB61B71C81800839916 /* Main.storyboard */,
+				B6E29BB91B71C81800839916 /* Images.xcassets */,
+				B6E29BBB1B71C81800839916 /* LaunchScreen.xib */,
+				B6E29BAC1B71C81800839916 /* Supporting Files */,
+			);
+			path = tonecurveimage;
+			sourceTree = "<group>";
+		};
+		B6E29BAC1B71C81800839916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E29BD21B71C99700839916 /* acv */,
+				B6E29BAD1B71C81800839916 /* Info.plist */,
+				B6E29BD91B71CC5500839916 /* Lenna.png */,
+				B6E29BAE1B71C81800839916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6E29BC51B71C81800839916 /* tonecurveimageTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E29BC81B71C81800839916 /* tonecurveimageTests.m */,
+				B6E29BC61B71C81800839916 /* Supporting Files */,
+			);
+			path = tonecurveimageTests;
+			sourceTree = "<group>";
+		};
+		B6E29BC61B71C81800839916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E29BC71B71C81800839916 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6E29BD21B71C99700839916 /* acv */ = {
+			isa = PBXGroup;
+			children = (
+				B6E29BD31B71C99700839916 /* curves_1.acv */,
+				B6E29BD41B71C99700839916 /* curves_2.acv */,
+				B6E29BD51B71C99700839916 /* curves_3.acv */,
+			);
+			path = acv;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2F22FA567BC74DB1601DED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97E20330E3EA965670DEC14 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E29BA81B71C81800839916 /* tonecurveimage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E29BCC1B71C81800839916 /* Build configuration list for PBXNativeTarget "tonecurveimage" */;
+			buildPhases = (
+				65321F1F641B44CDE3C427BC /* Check Pods Manifest.lock */,
+				B6E29BA51B71C81800839916 /* Sources */,
+				B6E29BA61B71C81800839916 /* Frameworks */,
+				B6E29BA71B71C81800839916 /* Resources */,
+				B53A9FBB2921E7777E25A06D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tonecurveimage;
+			productName = tonecurveimage;
+			productReference = B6E29BA91B71C81800839916 /* tonecurveimage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E29BC11B71C81800839916 /* tonecurveimageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E29BCF1B71C81800839916 /* Build configuration list for PBXNativeTarget "tonecurveimageTests" */;
+			buildPhases = (
+				B6E29BBE1B71C81800839916 /* Sources */,
+				B6E29BBF1B71C81800839916 /* Frameworks */,
+				B6E29BC01B71C81800839916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E29BC41B71C81800839916 /* PBXTargetDependency */,
+			);
+			name = tonecurveimageTests;
+			productName = tonecurveimageTests;
+			productReference = B6E29BC21B71C81800839916 /* tonecurveimageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E29BA11B71C81800839916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = tonetoneimage;
+				TargetAttributes = {
+					B6E29BA81B71C81800839916 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B6E29BC11B71C81800839916 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B6E29BA81B71C81800839916;
+					};
+				};
+			};
+			buildConfigurationList = B6E29BA41B71C81800839916 /* Build configuration list for PBXProject "tonecurveimage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E29BA01B71C81800839916;
+			productRefGroup = B6E29BAA1B71C81800839916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E29BA81B71C81800839916 /* tonecurveimage */,
+				B6E29BC11B71C81800839916 /* tonecurveimageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E29BA71B71C81800839916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E29BD71B71C99700839916 /* curves_2.acv in Resources */,
+				B6E29BDA1B71CC5500839916 /* Lenna.png in Resources */,
+				B6E29BD61B71C99700839916 /* curves_1.acv in Resources */,
+				B6E29BB81B71C81800839916 /* Main.storyboard in Resources */,
+				B6E29BBD1B71C81800839916 /* LaunchScreen.xib in Resources */,
+				B6E29BD81B71C99700839916 /* curves_3.acv in Resources */,
+				B6E29BBA1B71C81800839916 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E29BC01B71C81800839916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65321F1F641B44CDE3C427BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B53A9FBB2921E7777E25A06D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E29BA51B71C81800839916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E29BB51B71C81800839916 /* ViewController.m in Sources */,
+				B6E29BB21B71C81800839916 /* AppDelegate.m in Sources */,
+				B6E29BAF1B71C81800839916 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E29BBE1B71C81800839916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E29BC91B71C81800839916 /* tonecurveimageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6E29BC41B71C81800839916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E29BA81B71C81800839916 /* tonecurveimage */;
+			targetProxy = B6E29BC31B71C81800839916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6E29BB61B71C81800839916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E29BB71B71C81800839916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E29BBB1B71C81800839916 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E29BBC1B71C81800839916 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E29BCA1B71C81800839916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6E29BCB1B71C81800839916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E29BCD1B71C81800839916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A7B560DD94736834834B1A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tonecurveimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6E29BCE1B71C81800839916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741BF2438C96A7679E5600E6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tonecurveimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6E29BD01B71C81800839916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tonecurveimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonecurveimage.app/tonecurveimage";
+			};
+			name = Debug;
+		};
+		B6E29BD11B71C81800839916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tonecurveimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonecurveimage.app/tonecurveimage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E29BA41B71C81800839916 /* Build configuration list for PBXProject "tonecurveimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E29BCA1B71C81800839916 /* Debug */,
+				B6E29BCB1B71C81800839916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E29BCC1B71C81800839916 /* Build configuration list for PBXNativeTarget "tonecurveimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E29BCD1B71C81800839916 /* Debug */,
+				B6E29BCE1B71C81800839916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E29BCF1B71C81800839916 /* Build configuration list for PBXNativeTarget "tonecurveimageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E29BD01B71C81800839916 /* Debug */,
+				B6E29BD11B71C81800839916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E29BA11B71C81800839916 /* Project object */;
+}
