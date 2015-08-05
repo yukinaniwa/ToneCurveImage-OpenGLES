@@ -58,7 +58,7 @@
         
         [self.picture removeTarget:_arrayFilter[indexfilter]];
         
-        indexfilter = ++indexfilter%3;
+        indexfilter = ++indexfilter%_arrayFilter.count;
         NSString* filterfile = [NSString stringWithFormat:@"curves_%ld",indexfilter+1];
         
         [self.picture addTarget:_arrayFilter[indexfilter]];
