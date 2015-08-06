@@ -11,6 +11,7 @@
 #import "GPUImage.h"
 #import "BlocksKit.h"
 #import "BlocksKit+UIKit.h"
+#import "UIView+Toast.h"
 
 @interface ViewController ()
 {
@@ -75,6 +76,7 @@
         [self.picture processImage];
         UIImage *currentFilteredImage = [_arrayFilter[indexfilter] imageFromCurrentFramebuffer];
         UIImageWriteToSavedPhotosAlbum(currentFilteredImage, NULL, NULL, NULL);
+        [self.view makeToast:@"save image."];
     }];
 }
 
